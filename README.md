@@ -1,5 +1,5 @@
 # Line Charts with Matplotlib
-In this tutorial, we would like to see how to create line charts using Python's Matplotlib
+In this tutorial, we would like to create line charts using Python's Matplotlib
 
 
 

@@ -176,14 +176,17 @@ horizontal1 = [10,20]
 vertical1   = [100,250]    
 plt.subplot(1, 2, 1)                #the layout is 1 row, 2 columns, and this plot is in the first position
 plt.plot(horizontal1, vertical1)
-plt.title("First plot")             #a title for this plot
+plt.title("First plot")             #a title for this plot   
+plt.ylabel("first y-axis")        
+plt.xlabel("first x-axis") 
 
 horizontal2 = [10, 20, 50, 70]
 vertical2 = [30, 70, 20, 80]
 plt.subplot(1, 2, 2)                #the layout is 1 row, 2 columns, and this plot is in the second position
 plt.plot(horizontal2, vertical2) 
 plt.title("Second plot")            #a title for this plot
-
+plt.ylabel("second y-axis")        
+plt.xlabel("second x-axis") 
 
 plt.suptitle("All plots")           #add one title on the collection
 plt.show()

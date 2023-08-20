@@ -139,23 +139,23 @@ plt.show()
 ```
 
 
-### Part5: drawing more than one line
+### Part5: drawing more than one line and include a legend
 
-You can use the plot() function multiple times to draw many lines on the same diagram
+You can use the plot() function multiple times to draw many lines on the same diagram.
 
 ```
 import matplotlib.pyplot as plt
 
 horizontal1 = [10,20]      
 vertical1   = [100,250]    
-plt.plot(horizontal1, vertical1) 
+plt.plot(horizontal1, vertical1, label = 'plot #1') 
 
 horizontal2 = [10, 20, 50, 70]
 vertical2 = [30, 70, 20, 80]
-plt.plot(horizontal2, vertical2) 
+plt.plot(horizontal2, vertical2, label = 'plot #2') 
 
+plt.legend()
 plt.show()
-
 ```
 
 
